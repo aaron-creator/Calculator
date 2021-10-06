@@ -1,13 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Home from "./Components/Home";
+import KeyPad from "./Components/KeyPad";
 
 const App = () => (
   <Router>
     <div>
       <main>
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/" component={KeyPad} />
         </Switch>
       </main>
     </div>
