@@ -1,13 +1,15 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import KeyPad from "./Components/KeyPad";
+import button from "./Components/button";
+import outputScreen from "./Components/outputScreen";
 
 const App = () => (
   <Router>
     <div>
       <main>
         <Switch>
-          <Route exact path="/" component={KeyPad} />
+          <Route exact path="/" component={button} />
+          <Route exact path="/result" component={outputScreen} />
         </Switch>
       </main>
     </div>
