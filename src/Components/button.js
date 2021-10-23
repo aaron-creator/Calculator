@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "@mui/material/Button";
-import Results from "./outputScreen";
+// import Button from "@mui/material/Button";
+// import outputScreen from "./outputScreen";
 
 const button = () => {
   return (
